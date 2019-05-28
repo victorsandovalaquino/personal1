@@ -6,10 +6,23 @@
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" type="text/css" href="index.css">
+<script src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#notocar").click(function(){
+        $("#carousel, #registro, #quienessomos").slideToggle("slow");
+        alert("esta pagina nesesita equilibrio.");
+    });   
+});
+$(document).ready(function(){
+    $("#emviar").click(function(){
+        alert("emviado con exito.");
+    });   
+});
+</script>
 </head>
 <body bgcolor="#4B088A" text="#FFFFFF">
 	<!--header-->
@@ -56,7 +69,7 @@
 	</div>
 	<!--/seccion1-->
 	<!--seccion1.5-->
-	<div class="carousel" >
+	<div class="carousel" id="carousel">
     <a class="carousel-item" href="#one!"><img src="ramona la dragona.png">
     	<p class="title-cover">ramona la dragona</p>
     </a>
@@ -74,6 +87,7 @@
     </a>
   </div>
 	<!--/seccion1.5-->
+	<button id="notocar" class="btn btn-notocar">no tocar</button>
 	<!--seccion2 contenido en columnas-->
 	<div id="quienessomos" class="container">
 		<div class="section">
@@ -154,10 +168,14 @@
 						<label for="pasword">confirmar contraseña</label>
 					</div>
 				</div>
+				
 				<div class="row">
 					<div class="input-field col s12">
 						incluir foto<input type="file" name="adjunto" /><br/>
 					</div>
+				</div>
+				<div class="row">
+					<button id="emviar" class="btn btn-platzi">emviar</button>
 				</div>
 			</form>
 		</div>

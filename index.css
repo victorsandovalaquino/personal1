@@ -38,4 +38,8 @@ footer a{
 .page-footer{
 	background-color: #023364;
 }
-#carousel{background-color: #2e7d32;}
+#carousel{background-color: #29088A;}
+.btn-platzi{background-color: #97c93e; color: white}
+.btn-platzi:hover {background-color: #82ad36;}
+.btn-notocar{background-color: #FF0000; color: white}
+.btn-notocar:hover {background-color: #B40404;}
