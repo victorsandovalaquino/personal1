@@ -1,7 +1,7 @@
 nav ul a{color: #20815c}
 nav{/*color azul logo: #023364 color verde logo: #20815c*/
-background-color: #023364; height: 85px;}
-.header{color: #023364;}
+background-color: #3ADF00; height: 85px;}
+.header{color: #3ADF00;}
 p{line-height: 2rem;}
 .sidenav-trigger{color:  #26a69a;}
 .parallax-container {
@@ -36,10 +36,13 @@ footer a{
 	color: #e0e0e0;
 }
 .page-footer{
-	background-color: #023364;
+	background-color: #74DF00;
 }
-#carousel{background-color: #29088A;}
+#carousel{background-color: #0BA90B;}
 .btn-platzi{background-color: #97c93e; color: white}
 .btn-platzi:hover {background-color: #82ad36;}
 .btn-notocar{background-color: #FF0000; color: white}
 .btn-notocar:hover {background-color: #B40404;}
+.hether{color: #298A08}
+.registro{background-color: #088A08}
+.carousel-text{color: #FFFFFF}
